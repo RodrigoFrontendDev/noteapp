@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
-
 :root{
   color-scheme:light;
   --ink:#18233d;
@@ -15,8 +13,8 @@
   --coral:#ff8d79;
   --mint:#a4dec8;
   --shadow:0 14px 38px rgba(34,42,73,.07);
-  --font-body:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-  --font-display:'Manrope','DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;
+  --font-body:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-display:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 }
 *{box-sizing:border-box}
 html{min-width:320px;background:var(--paper);scroll-behavior:smooth}
